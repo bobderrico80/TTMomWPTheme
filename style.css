@@ -5,6 +5,11 @@
  Author URI:   http://www.derricowebdesign.com
 */
 
+body {
+	margin:0px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
 #wrapper {
 	width:800px;
 	margin-left:auto;
@@ -16,12 +21,74 @@
 	background-color:#ffaaaa;
 }
 
+#header img {
+	width:800px;
+	height:200px;
+	margin:0px;
+	padding:0px;
+	display:block;
+}
+
+.menu {
+	background-color:#ffaaff;
+	width:800px;
+	height:50px;
+	margin:0px;
+	padding:0px;
+}
+
+.menu a {
+	text-decoration:none;
+	width:100px;
+	border: 1px solid black;
+	text-align:center;
+	font-size:1.15em;
+	line-height:30px;
+	display:block;
+	float:left;
+	height:30px;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:5px;
+	margin-left:2px;
+	margin-right:2px;
+	background-color:#ffffaa;
+}
+
+.menu a:link {
+	color:black;
+}
+
+.menu a:visited {
+	color:black;
+}
+
+.menu a:hover {
+	background-color:#ffaaaa;
+	color:#ffffff;
+}
+
+
+.menu ul {
+	list-style:none;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:104px;
+	padding:0px;
+}
+
 #content {
 	min-height:800px;
 	background-color:#aaffaa;
+	padding:1em;
 }
 
 #footer {
 	height:50px;
 	background-color:#aaaaff;
+	padding-left:
+}
+
+#footer p {
+	margin:0px;
 }

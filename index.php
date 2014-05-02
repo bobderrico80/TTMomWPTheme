@@ -1,7 +1,7 @@
 <?php get_header() ?>
-<!--<html>-->
-	<!--<body>-->
-		<!--<div id="wrapper"-->
+<?php //<html> ?>
+	<?php //<body> ?>
+		<?php //<div id="wrapper"> ?>
 			<div id="content">
 				<?php
 					// Start the Loop.

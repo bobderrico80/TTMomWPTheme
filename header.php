@@ -8,6 +8,6 @@
 	<body>
 		<div id="wrapper">
 			<div id="header">
-				<h1><?php bloginfo('name'); ?></h1>
-				<?php wp_nav_menu(); ?>
+				<img src="<?php bloginfo("template_url"); ?>/masthead.png" alt="<?php bloginfo('name'); ?>"/>
+					<?php wp_nav_menu(); ?>
 			</div>

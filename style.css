@@ -1,0 +1,27 @@
+/*
+ Theme Name:   Terrific Twosome Mothers of Multiples
+ Theme URI:    http://proof.derricowebdesign.com/ttmom
+ Author:       Bob D'Errico
+ Author URI:   http://www.derricowebdesign.com
+*/
+
+#wrapper {
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#header {
+	height:250px;
+	background-color:#ffaaaa;
+}
+
+#content {
+	min-height:800px;
+	background-color:#aaffaa;
+}
+
+#footer {
+	height:50px;
+	background-color:#aaaaff;
+}

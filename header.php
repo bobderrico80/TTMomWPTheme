@@ -6,7 +6,7 @@
 	</head>
 	
 	<body>
-		<div id="wrapper">
+		<div id="mainWrapper">
 			<div id="header">
 				<img src="<?php bloginfo("template_url"); ?>/masthead.png" alt="<?php bloginfo('name'); ?>"/>
 					<?php wp_nav_menu(); ?>

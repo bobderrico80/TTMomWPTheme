@@ -1,6 +1,6 @@
 <?php //<html> ?>
 	<?php //<body> ?>
-		<?php //<div id="wrapper"> ?>
+		<?php //<div id="nainWrapper"> ?>
 			<div id="footer">
 				<div id="parentorgs">
 					<a href="http://www.nomotc.org" target="_blank">

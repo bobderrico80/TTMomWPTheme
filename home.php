@@ -12,11 +12,11 @@
 						// Start the Loop.
 						while (have_posts()) {
 							the_post();?>
-							<h3 class="postTitle">
+							<h1 class="postTitle">
 								<a href="<?php echo get_permalink(); ?>">
 									<?php the_title(); ?>
 								</a>
-							</h3>
+							</h1>
 							<p class="postMeta">
 								Posted on: <span class="postTime"><?php the_time("l, F j, Y g:i a"); ?></span> by <span class="postAuthor"><?php the_author();?></span>
 							</p>
